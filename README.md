@@ -33,3 +33,20 @@ docker push 539898341476.dkr.ecr.ap-south-1.amazonaws.com/ai-devops-app:latest
             },
             "encryptionConfiguration": {
                 "encryptionType": "AES256"
+
+
+
+
+CI-CD-FLOW OF THIS PROJECT
+
+GitHub
+   ↓
+Webhook Trigger
+   ↓
+Jenkins Pipeline
+   ↓
+Docker Build
+   ↓
+Push to ECR
+   ↓
+Deploy to EKS
