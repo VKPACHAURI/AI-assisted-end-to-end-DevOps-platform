@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: ai-devops-app
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: ai-devops-app
+
+  template:
+    metadata:
+      labels:
+        app: ai-devops-app
+
+    spec:
+      containers:
+      - name: ai-devops-app
+        image: 539898341476.dkr.ecr.ap-south-1.amazonaws.com/ai-devops-app:latest
+
+        ports:
+        - containerPort: 5000
+
+
+
+
+
