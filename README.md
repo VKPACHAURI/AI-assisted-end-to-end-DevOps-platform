@@ -50,3 +50,74 @@ Docker Build
 Push to ECR
    ↓
 Deploy to EKS
+
+
+
+
+https://github.com/VKPACHAURI/AI-assisted-end-to-end-DevOps-platform.git
+
+End-to-End Workflow
+GitHub   ↓Jenkins CI/CD Pipeline   ↓Maven Build   ↓Docker Image Build   ↓Push to AWS ECR   ↓Terraform Infrastructure Provisioning   ↓Deploy to Amazon EKS   ↓Application Access via AWS ALB   ↓Auto Scaling & Monitoring   ↓Python-based Validation & Automation
+🚀 Key Highlights
+✅ Automated CI/CD pipeline using Jenkins
+✅ Infrastructure provisioning using Terraform
+✅ Dockerized Flask application deployment
+✅ Kubernetes deployment on AWS EKS
+✅ Integrated AWS ECR for container registry
+✅ ALB-based external application exposure
+✅ Cloud-native scalable architecture
+✅ Hands-on troubleshooting with IAM, EKS, Docker, Jenkins & Kubernetes
+✅ AI-assisted DevOps workflow implementation
+📚 What I Learned
+This project helped me gain deeper practical experience in:
+
+
+Kubernetes orchestration
+
+
+CI/CD automation
+
+
+AWS cloud-native deployments
+
+
+Terraform infrastructure management
+
+
+Jenkins pipeline creation
+
+
+Docker container lifecycle
+
+
+DevOps troubleshooting in real-time environments
+
+
+🔥 Next Goals
+
+
+GitHub Webhooks Automation
+
+
+Helm Charts
+
+
+ArgoCD / GitOps
+
+
+Monitoring with Prometheus & Grafana
+
+
+AI-powered DevOps automation enhancements
+
+
+Proud to keep learning and building real-world DevOps solutions step-by-step 🚀
+#DevOps #AWS #Kubernetes #Terraform #Docker #Jenkins #EKS #CloudComputing #CICD #Python #GitHub #CloudNative #PlatformEngineering #SRE #AI #OpenToWork #DevOpsEngineer
+
+
+
+
+
+
+
+
